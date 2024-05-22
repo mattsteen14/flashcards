@@ -16,6 +16,10 @@ export const topicsSlice = createSlice({
                 icon,
                 quizIds: []
             };
+        },
+        addQuizIdToTopic: (state, action) => {
+            const { id, topicId } = action.payload;
+            state.topics[topicId].quizIds.push(id);
         }
     }
 });
