@@ -9,8 +9,7 @@ export const topicsSlice = createSlice({
     },
     reducers: {
         addTopic: (state, action) => {
-            const id = uuidv4();
-            const { name, icon } = action.payload;
+            const { id, name, icon } = action.payload;
             state.topics[id] = {
                 id,
                 name,
