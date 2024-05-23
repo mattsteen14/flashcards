@@ -217,9 +217,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Complete project as per Codecademy brief.
 - [ ] Testing & Debugging.
 - [ ] Share on Codecademy forums for feedback.
+- [ ] Arrange code review session.
+- [ ] Edit & personalise styling with CSS.
 - [ ] Use surge to deploy.
 
 See the [open issues](https://github.com/mattsteen14/flashcards/issues) for a full list of proposed features (and known issues).

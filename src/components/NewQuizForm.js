@@ -28,7 +28,7 @@ export default function NewQuizForm() {
       cardIds.push(cardId);
       dispatch(addCard({
         ...card,
-        id: cardId
+        id: cardId,
       }));
     })
     // create the new cards here and add each card's id to cardIds
