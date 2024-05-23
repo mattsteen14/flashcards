@@ -32,7 +32,7 @@ export default function NewQuizForm() {
       name: name,
       topicId: topicId,
       cardIds: cardIds,
-      id: quizId,
+      id: quizId
     })
   );
     // dispatch add quiz action 
