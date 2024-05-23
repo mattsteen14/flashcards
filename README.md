@@ -90,7 +90,9 @@
 
 ### My Comments
 
-Project tasks completed after a day and a half. Testing & debugging definitely needed. Some things don't work as I thought they would. The topic says 0 quizzes when I've assigned the topic to some quizzes. There are a couple of tasks (12 & 16) that I got stuck on where it says to test on the site that the item appears which it did not seem to. It turns I think it was working but using the selector in the following task made the item appear straight away, much more explicitly. 
+Project tasks completed after a day and a half. As others have said on the codecademy forums for the task, there are a couple of tasks (12 & 16) that I got stuck on where it says to test on the site that the item appears but it only really appears properly when you use the selector in the following task. Code edited from the provided solution code. Basically I had overcomplicated the the extraReducer in topicsSlice with a builder & an if statement that weren't necessary. The solution code was very close to the 3 lines of code that I originally had but I had it as another action creator, not an extraReducer. 
+
+I plan to add instructions to the page to make it clearer to user for what they actually need to do with the app. Then I will work on the styling of the page, personalise it a bit, perhaps make the cards look like cards in more of a grid system instead of appearing like blocks that fill the page. Feel free to request a feature and I will see what I can do.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -217,9 +219,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Testing & Debugging.
-- [ ] Share on Codecademy forums for feedback.
 - [ ] Arrange code review session.
+- [ ] Add instructions to page to make it clearer what user needs to do.
 - [ ] Edit & personalise styling with CSS.
 - [ ] Use surge to deploy.
 
