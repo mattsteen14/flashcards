@@ -90,7 +90,7 @@
 
 ### My Comments
 
-Project in progress. Watch this space.
+Project tasks completed after a day and a half. Testing & debugging definitely needed. Some things don't work as I thought they would. The topic says 0 quizzes when I've assigned the topic to some quizzes. There are a couple of tasks (12 & 16) that I got stuck on where it says to test on the site that the item appears which it did not seem to. It turns I think it was working but using the selector in the following task made the item appear straight away, much more explicitly. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
