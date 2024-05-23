@@ -24,7 +24,7 @@ export default function NewQuizForm() {
 
     const cardIds = [];
     cards.forEach((card) => {
-      let cardId = uuidv4();
+      const cardId = uuidv4();
       cardIds.push(cardId);
       dispatch(addCard({
         ...card,

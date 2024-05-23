@@ -20,6 +20,7 @@ export default function NewTopicForm() {
     }
     dispatch(addTopic({
       name: name,
+      id: uuidv4(),
       icon: icon
     }))
     // dispatch new topic
