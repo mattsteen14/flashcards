@@ -1,14 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -28,16 +18,13 @@
 
 
 <!-- PROJECT LOGO -->
-<!-- <br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="/portfolio/resources/images/PortfolioScreenshot.png" alt="Logo" width="80" height="80">
-  </a> -->
 
 <h3 align="center">Flashcards</h3>
 
   <p align="center">
     Codecademy Full Stack Engineer path - Challenge Project
+    <br />
+    <a href="https://www.codecademy.com/journeys/front-end-engineer/paths/fecj-22-web-development-foundations/tracks/fecj-22-redux/modules/wdcp-22-flashcards-e915f31e-11e6-41d4-811a-744b084b474a/projects/react-redux-flashcards"><strong>Project brief (codecademy members only) »</strong></a>
     <br />
     <a href="https://github.com/mattsteen14/flashcards"><strong>Explore the docs »</strong></a>
     <br />
@@ -90,9 +77,27 @@
 
 ### My Comments
 
-Project tasks completed after a day and a half. As others have said on the codecademy forums for the task, there are a couple of tasks (12 & 16) that I got stuck on where it says to test on the site that the item appears but it only really appears properly when you use the selector in the following task. Code edited from the provided solution code. Basically I had overcomplicated the the extraReducer in topicsSlice with a builder & an if statement that weren't necessary. The solution code was very close to the 3 lines of code that I originally had but I had it as another action creator, not an extraReducer. 
+Project tasks completed after a day and a half. As others have said on the codecademy forums for the task, there are a couple of tasks (12 & 16, referred to below) that I got stuck on where it says to test on the site that the item appears but it only really appears properly when you use the selector in the following task. The issue was that the topic displayed 0 quizzes when I had assigned a topic to the quizzes. 
 
-I plan to add instructions to the page to make it clearer to user for what they actually need to do with the app. Then I will work on the styling of the page, personalise it a bit, perhaps make the cards look like cards in more of a grid system instead of appearing like blocks that fill the page. Feel free to request a feature and I will see what I can do.
+Code edited from the provided solution code. Basically I had overcomplicated the extraReducer in topicsSlice with a builder & an if statement that weren't necessary. The solution code was very close to the 3 lines of code that I originally had but I had it as another action creator, not an extraReducer. 
+
+Moving forward I plan to add instructions to the page to make it clearer to user for what they actually need to do with the app. Then I will work on the styling of the page, personalise it a bit, perhaps make the cards look like cards in more of a grid system instead of appearing like blocks that fill the page. Feel free to request a feature and I will see what I can do.
+
+### Reference Tasks
+
+Task 12:
+
+Next, import the action from your quiz slice and dispatch it from the handleSubmit() event handler that fires when the new quiz form is submitted.
+
+- Remember, that action creator expects to receive a payload of the form { id: '123', name: 'quiz name', topicId: '456', cardIds: ['1', '2', '3', ...]}. You’ll have to generate an id by calling uuidv4. For now, pass the empty cardIds array variable for the cardIds property (you’ll change that in a later task).
+
+- Test that your action creator works by filling out the new quiz form. After your quiz is created you should be rerouted to the /quizzes page and should see your newly created quiz there.
+
+Task 16:
+
+You previously passed an empty array for cardIds to the action creator that generates a new quiz. Now that you have written code to collect an array of all the cardIds created whenever the new quiz form is submitted, replace the empty array with this array of cardIds.
+
+To test that your code is working, create a new quiz with some cards. Navigate to that quiz from the /quizzes page, and verify that your cards show up. Flip them over by clicking on them to make sure that you’ve correctly captured all of the state belonging to each card.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -219,9 +224,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Arrange code review session.
+- [x] Complete project as per Codecademy brief.
+- [x] Share on Codecademy forums for feedback.
+- [x] Solve issue of quizzes not selecting topics.
+- [x] Request code review on codecademy forums.
 - [ ] Add instructions to page to make it clearer what user needs to do.
 - [ ] Edit & personalise styling with CSS.
+- [ ] Testing & Debugging.
 - [ ] Use surge to deploy.
 
 See the [open issues](https://github.com/mattsteen14/flashcards/issues) for a full list of proposed features (and known issues).
